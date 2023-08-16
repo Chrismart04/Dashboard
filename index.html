@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>PanelBear</title>
 </head>
 
@@ -184,14 +183,105 @@
                 </table>
                 <a href="#">Show All</a>
             </div>
+            <!--end of orders-->
         </main>
+        <!--end main content-->
+
+
+        <!-- Right Section -->
+        <!-- Right Section -->
+<div class="right-section">
+    <div class="nav">
+        <button id="menu-btn">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </button>
+        <div class="dark-mode">
+            <span class="material-symbols-outlined active">
+                light_mode
+            </span>
+            <span class="material-symbols-outlined ">
+                dark_mode
+            </span>
+        </div>
+
+        <div class="profile">
+            <div class="info">
+                <p>Hi, <b>Christopher</b></p>
+                <small class="text-muted">Admin</small>
+            </div>
+            <div class="profile-photo">
+                <img src="./images/admin.jpg">
+            </div>
+        </div>
+
     </div>
+    <!-- End of Nav -->
+    
+    <div class="reminders">
+        <div class="header">
+            <h2>Reminders</h2>
+            <span class="material-symbols-outlined">
+                notifications_none
+            </span>
+        </div>
+
+        <div class="notification">
+            <div class="icon">
+                <span class="material-symbols-outlined">
+                    volume_up
+                </span>
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>Workshop</h3>
+                    <small class="text-muted">
+                        08:00 AM - 12:00 PM
+                    </small>
+                </div>
+                <span class="material-symbols-outlined">
+                    more_vert
+                </span>
+            </div>
+        </div>
+
+        <div class="notification deactive">
+            <div class="icon">
+                <span class="material-symbols-outlined">
+                    edit
+                </span>
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>Workshop</h3>
+                    <small class="text-muted">
+                        08:00 AM - 12:00 PM
+                    </small>
+                </div>
+                <span class="material-symbols-outlined">
+                    more_vert
+                </span>
+            </div>
+        </div>
+
+        <div class="notification add-reminder">
+            <div>
+                <span class="material-symbols-outlined">
+                    add
+                </span>
+                <h3>Add Reminder</h3>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
 
-    <script src="orders.js"></script>
-    <script src="index.js"></script>
+
+        <script src="orders.js"></script>
+        <script src="index.js"></script>
 </body>
 
 </html>
